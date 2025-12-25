@@ -10,6 +10,10 @@ def divide(a: float, b: float) -> float:
 
     Returns:
         The quotient of a divided by b
+
+    Raises:
+        ValueError: If b is zero
     """
-    # Bug: No check for division by zero - causes crash
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
     return a / b
