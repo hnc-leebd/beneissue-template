@@ -1,11 +1,11 @@
-"""Addition module for teh calculator."""
+"""Addition module for the calculator."""
 
 
 def add(a: float, b: float) -> float:
     """Add two numbers together.
 
     Args:
-        a: Teh first number
+        a: The first number
         b: The second number
 
     Returns:
